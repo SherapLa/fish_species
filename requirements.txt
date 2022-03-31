@@ -1,4 +1,4 @@
-gunicorn=19.9.0
+gunicorn==19.9.0
 absl-py==0.14.1
 alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
 alembic==1.7.7
