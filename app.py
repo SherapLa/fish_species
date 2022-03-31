@@ -23,7 +23,7 @@ def predict():
 	final = np.array(int_features)
 	final = final.astype(np.float64)
 	#data_unseen = pd.DataFrame([final], columns=cols)
-	model = pickle.load(open('logreg.pkl','rb'))
+	model = pickle.load(open('notebook/logreg.pkl','rb'))
 	prediction = model.predict([final])
 	print(prediction)
 	return render_template('home.html', prediction=prediction)
